@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
-// import Navbar from './components/Navbar';
+
 import Home from './Pages/Home';
 import TopRated from './Pages/TopRated';
 import Upcoming from './Pages/Upcoming';
@@ -14,7 +14,7 @@ const App = () => {
     <Router>
       <div className="bg-black text-white min-h-screen flex flex-col">
         <Header />
-        {/* <Navbar /> */}
+      
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
